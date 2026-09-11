@@ -1,12 +1,12 @@
 {
   "name": "easyeda-bridge",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "EasyEDA (嘉立创EDA) 专业版桥接插件：官方 Run API Gateway 扩展 + Bridge Server + MCP stdio 工具 + 完整 API 参考。",
   "author": {
     "name": "本地打包（EasyEDA 官方组件 + 自定义 MCP 适配层）"
   },
   "homepage": "https://github.com/easyeda/eext-run-api-gateway",
-  "repository": "https://github.com/easyeda/eext-run-api-gateway",
+  "repository": "https://github.com/ailiasdesu/easyeda-bridge-codex-plugin",
   "license": "MIT",
   "keywords": [
     "easyeda",
@@ -31,7 +31,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://github.com/easyeda/eext-run-api-gateway",
+    "websiteURL": "https://github.com/ailiasdesu/easyeda-bridge-codex-plugin",
     "defaultPrompt": [
       "嘉立创EDA，启动！",
       "读一下当前原理图和 PCB 的关键信息",
