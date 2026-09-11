@@ -1,0 +1,11 @@
+# 运行期产物
+*.log
+easyeda-bridge.log
+easyeda-bridge.err.log
+
+# 本机路径改写后的本地副本（install.ps1 会重写 .mcp.json，如需保真请提交前还原）
+# .mcp.json
+
+# 系统
+Thumbs.db
+.DS_Store

@@ -1,0 +1,15 @@
+{
+  "name": "easyeda-bridge-codex-plugin",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Codex plugin bridging EasyEDA Pro (嘉立创EDA专业版) via the official Run API Gateway",
+  "type": "module",
+  "scripts": {
+    "check": "node scripts/check.mjs",
+    "bridge": "node scripts/bridge-server.mjs"
+  },
+  "dependencies": {
+    "ws": "^8.21.3"
+  },
+  "license": "MIT"
+}
