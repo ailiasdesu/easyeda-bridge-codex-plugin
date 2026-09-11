@@ -1,5 +1,7 @@
 # easyeda-bridge — Codex 插件
 
+[**中文**](./README.md) · [English](./README.en.md)
+
 把 **嘉立创EDA 专业版 (EasyEDA Pro)** 接进 Codex 的完整链路插件：官方 Run API Gateway 扩展 + Bridge Server + MCP stdio 工具 + 官方 API 参考。
 
 > 非官方社区打包，与 JLCEDA / EasyEDA 无隶属关系；署名与许可见 [NOTICE.md](./NOTICE.md)。

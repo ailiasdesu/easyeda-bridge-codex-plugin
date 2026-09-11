@@ -31,8 +31,13 @@ if (-not $node) {
 if (-not $node) { throw '未找到 node.exe，请先安装 Node.js 18+ 并加入 PATH。' }
 Write-Host "node: $node"
 
-# 2) 写 .mcp.json（绝对路径）
+# 2) 写 .mcp.json（绝对路径；缺文件时先从 .mcp.json.example 复制一份再覆盖）
 $mcp = Join-Path $PluginDir '.mcp.json'
+$example = Join-Path $PluginDir '.mcp.json.example'
+if (-not (Test-Path $mcp)) {
+  if (Test-Path $example) { Copy-Item $example $mcp }
+  else { '{}' | Set-Content -Path $mcp -Encoding UTF8 }
+}
 $json = [ordered]@{
   mcpServers = [ordered]@{
     easyeda_bridge = [ordered]@{

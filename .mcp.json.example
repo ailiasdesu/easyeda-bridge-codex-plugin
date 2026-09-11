@@ -1,0 +1,11 @@
+{
+  "_comment": "这是相对形态的示例。克隆后请运行 scripts\\install.ps1 —— 它会把 command/args 改写为本机绝对路径并生成 .mcp.json（Codex 启动 MCP 服务器时不会展开相对路径）。",
+  "mcpServers": {
+    "easyeda_bridge": {
+      "command": "node",
+      "args": [
+        "./scripts/easyeda-bridge-mcp.mjs"
+      ]
+    }
+  }
+}
